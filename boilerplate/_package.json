@@ -1,0 +1,30 @@
+{
+  "name": "{{name}}",
+  "version": "1.0.0",
+  "description": "{{description}}",
+  "scripts":
+  {
+    "dev:front": "egg-born-bin front-dev",
+    "build:front": "egg-born-bin front-build",
+    "lint": "eslint src"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": ""
+  },
+  "author": "{{author}}",
+  "license": "ISC",
+  "devDependencies":
+  {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.5.0",
+    "eslint-config-egg": "^5.1.0",
+    "eslint-plugin-vuefix": "^0.2.0"
+  },
+  "dependencies":
+  {
+    "egg-born-front": "^0.0.4",
+    "egg-born-bin": "^0.0.3"
+  }
+}
