@@ -10,9 +10,7 @@
   </f7-page>
 </template>
 <script>
-import components from './mock.js';
 export default {
-  components,
   methods: {
     logout() {
       this.$meta.eventHub.$emit(this.$meta.constants.events.logout);

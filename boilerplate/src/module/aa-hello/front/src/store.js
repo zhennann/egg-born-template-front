@@ -17,17 +17,13 @@ export default function(Vue) {
     },
     actions: {
       setMessage({ commit }, self) {
+        // eslint-disable-next-line
         return new Promise((resovle, reject) => {
-          self.$api.get('home/index').then(data => {
-            commit('setMessage', data);
-            resovle();
-          }).catch(err => {
-            reject(err);
-          });
+          commit('setMessage', self.$text(self.$config.message, 'zhennann'));
+          resovle();
         });
       },
     },
   };
 
 }
-

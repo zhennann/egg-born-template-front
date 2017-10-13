@@ -8,6 +8,7 @@ import App from './app';
 import Home from './home';
 import config from '../config/config.js';
 import locales from '../config/locales.js';
+import mock from './mock/mock.js';
 
 let Vue;
 
@@ -16,6 +17,9 @@ function install(_Vue, cb) {
   if (Vue) return console.error('already installed.');
 
   Vue = _Vue;
+
+  // mock
+  Vue.use(mock);
 
   // router
   Vue.use(Router);

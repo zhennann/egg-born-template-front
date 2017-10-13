@@ -9,9 +9,7 @@
   </f7-page>
 </template>
 <script>
-import components from './mock.js';
 export default {
-  components,
   computed: {
     who() {
       return this.$route.params.who;
