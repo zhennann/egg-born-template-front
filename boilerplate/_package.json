@@ -17,14 +17,14 @@
   "license": "ISC",
   "devDependencies":
   {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^4.5.0",
-    "eslint-config-egg": "^5.1.0",
-    "eslint-plugin-vuefix": "^0.2.0"
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.11.0",
+    "eslint-config-egg": "^5.1.1",
+    "eslint-plugin-vuefix": "^0.2.1"
   },
   "dependencies":
   {
-    "egg-born-front": "^1.0.13",
-    "egg-born-bin": "^1.0.1"
+    "egg-born-front": "^1.0.17",
+    "egg-born-bin": "^1.0.2"
   }
 }
